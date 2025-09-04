@@ -4,7 +4,7 @@
 BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
 ADMIN_IDS = [123456789, 987654321]
 BOT_USERNAME = "YourGameCardsBot"
-
+SUPPORT_ID = "@Gamebit"
 # --- Channel and Group Settings ---
 FORCE_JOIN_CHANNELS = [
     {
@@ -17,10 +17,10 @@ FORCE_JOIN_CHANNELS = [
     },
 ]
 
-# --- KYC (Know Your Customer) Settings ---
-KYC_ENABLED = True
 
 # --- Other Bot Logic Settings ---
 WELCOME_MESSAGE = "Welcome to the virtual game card store!"
 CURRENCY = "USD"
-MIN_TRANSACTION_AMOUNT = 5.00
+START_IMG = ""
+MENU_IMG = ""
+
